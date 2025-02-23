@@ -27,6 +27,7 @@ git clone https://github.com/ravsalt/NGLinkAPI.git
 cd NGLinkAPI
 # NGLinkAPI
 python app.py
+# running the app
 ```
 
 ### API Usage
