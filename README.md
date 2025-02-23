@@ -51,6 +51,8 @@ Request Parameters:
 
 Example Request:
 
+```bash
 curl -X POST https://<your-deployed-domain-or-ip>/api/submit \
 -H "Content-Type: application/x-www-form-urlencoded" \
 -d "username=test_user&question=What is Flask?&deviceId=1234abcd&gameSlug=game_example&referrer=test_referrer"
+```
