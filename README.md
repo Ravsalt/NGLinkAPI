@@ -26,3 +26,31 @@ Clone the repository to your local machine:
 git clone https://github.com/yourusername/NGLinkAPI.git
 cd NGLinkAPI
 # NGLinkAPI
+python app.py
+```bash
+
+### API Usage
+
+## Base URL
+
+All API requests should be made to the following base URL:
+
+https://localhost:5000/api/submit
+
+Endpoint: /api/submit
+
+This endpoint allows you to submit a question to the NGL API.
+Method: POST
+Request Parameters:
+
+    username (required): The username of the person submitting the question.
+    question (required): The question being submitted.
+    deviceId (required): The unique identifier for the device (e.g., UUID).
+    gameSlug (optional): The game slug (can be left empty).
+    referrer (optional): The referrer information (can be left empty).
+
+Example Request:
+
+curl -X POST https://<your-deployed-domain-or-ip>/api/submit \
+-H "Content-Type: application/x-www-form-urlencoded" \
+-d "username=test_user&question=What is Flask?&deviceId=1234abcd&gameSlug=game_example&referrer=test_referrer"
