@@ -22,9 +22,11 @@ Before running the project, ensure you have the following installed:
 Clone the repository to your local machine:
 
 ```bash
+#Clone The repo
 git clone https://github.com/ravsalt/NGLinkAPI.git
+
 cd NGLinkAPI
-# NGLinkAPI
+
 python app.py
 # running the app
 ```
