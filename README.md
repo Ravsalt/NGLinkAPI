@@ -7,7 +7,6 @@ NGLinkAPI is a Python library that allows you to interact with the NGL (Not Gonn
 - Interact with the NGL API for submitting questions via POST requests.
 - Flask application to handle submissions.
 - Logging for tracking requests and responses.
-- Unit tests to ensure proper functionality.
 
 ## Requirements
 
